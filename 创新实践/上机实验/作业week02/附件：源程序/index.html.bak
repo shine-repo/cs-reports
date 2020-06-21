@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>精英学院</title>
+		<style>
+			body{
+				background-color: #EEFFFF;
+			}
+			<!-- <link rel="stylesheet" type="text/css" href="[css/header.css]" charset="UTF-8"/> -->
+			/* 头部标题 */
+			.header {
+			  width: 100%
+			  background: #00FFFF;
+			}
+			/* logo */
+			.headerleft {
+				float: left;
+			}
+			/* 标题 */
+			.headerright {
+				
+				text-align: center;
+				font-size: 40px;
+			}
+			/* .rightheader h1 {
+				margin-top: 40px;
+				font-size: 200px;
+			} */
+
+			/* 导航条 */
+			.topnav {
+			 float: left;
+			 width: 100%;
+			  background-color: #3ECAF0;
+			}
+			/* 导航条链接 */
+			.topnav a {
+			  float: left;
+			  display: block;
+			  color: white;
+			  text-align: center;
+			  font-size: 30px;
+			  padding: 14px 16px;
+			  text-decoration: none;
+			}
+			/* 内容区域 */
+			.content1{
+				width: 100%;
+				margin-top: 150px;
+			}
+			.content1first{
+				float: left;
+			}
+			.content1second{
+				margin-left: 330px;
+			}
+			.content2{
+				width: 100%;
+				border-style: solid; 
+				/* color: bl; */
+			}
+			/* 新闻速递 */
+			.content2first{
+				float: left;
+				width: 30%;
+				height: 250px;
+			}
+			/* 重要通知 */
+			.content2second{
+				float: left;
+				width: 30%;
+				height: 250px;
+			}
+			/* 讲座信息 */
+			.content2third{
+				float: left;
+				width: 38%;
+				height: 250px;
+			}
+			/* 底部区域 */
+			.footer{
+				background-color: #CCFFFF;
+				text-align: center;
+				margin-top: 220px;
+			}
+		</style>
+		
+		<script src="js/slideshow.js"></script>
+	</head>
+	<body>
+		<div class="header">
+			<div class="headerleft">
+				<img id="logo" src="images/logo.jpg" width="180px" height="140px">
+			</div>
+			<div class="headerright">
+				<h1>精英学院</h1>
+			</div>
+		</div>
+		<div class="topnav">
+			<a href="others/introduce.html">学院概况</a>
+			<a href="others/foster.html">人才培养</a>
+			<a href="others/discipline.html">学科建设</a>
+			<a href="others/schoolfellow.html">校友家园</a>
+		</div>
+		
+		<div class="content1">
+			<!-- 轮播图 -->
+			<div class="content1first">
+				<img id="elite" src="images/elite1.jpg" width="300px" height="200px">
+			</div>
+			<!-- 学院简介 -->
+			<div class="content1second">
+				<h1>学院介绍</h1>
+				<p>
+				信息工程与自动化学院是昆明理工大学最大的学院之一，有自动化系、计算机系、通信工程系、生物医学工程系、电子电工中心及云南省计算机技术应用重点实验室，学院现有全日制本科生2356 人，全日制学术型硕士生750 人，工程硕士生438 人，博士生近10 人。学院拥有一批理论水平高、学术造诣深、实践经验丰富的师资力量。现有教职工223 人，其中教师200人，管理人员23 人。教职员工中，有教授( 含研究员）35 人，副教授（含高级工程师、高级实验师、副研究员）72 人，其中具有博士学位的教师56 人，硕士学位的教师100 多人, 有国家高层次人才特支计划“万人计划”1 人、国家科技部中青年科技创新领军人才1 人、云南省中青年学术技术带头人6人、云南省中青年技术创新人才2 人、云南省中青年学术技术带头人后备人才4 人、云南省突出贡献专家2 人、省政府特殊津贴1 人、博士生导师6 人。
+				</p>
+			</div>
+		</div>
+
+		<div class="content2">
+			<div class="content2first">
+				<h1>新闻速递</h1>
+				<p>
+					......<br>
+					......<br>
+					......<br>
+				</p>
+			</div>
+			<div class="content2second">
+				<h1>重要通知</h1>
+				<p>
+					......<br>
+					......<br>
+					......<br>
+				</p>
+			</div>
+			<div class="content2third">
+				<h1>讲座信息</h1>
+				<p>
+					......<br>
+					......<br>
+					......<br>
+				</p>
+			</div>
+		</div>
+		<div class="footer">
+			<p>
+				Copyright@2012昆明理工大学精英学院 <br>
+				地址：云南省昆明市呈贡新区景明南路727号（昆明理工大学）邮编：650504 <br>
+				访问人数：265231    本站域名: xzy.kmust.edu.cn <br>
+			</p>
+		</div>
+	</body>
+</html>
