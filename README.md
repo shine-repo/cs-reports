@@ -1,6 +1,4 @@
 # cs-reports
-> 该项目存放的本人大三、大四期间所做的一些实验报告，其中包括平时的平时实验报告、期末的课程设计及课程设计源码。
-
 1. **面向对象建模技术**：
    * [课程设计：基于WEB的疫情期间社区出入管理系统的设计与实现](/object-oriented-modeling-technology)
    * [课程设计源码](/object-oriented-modeling-technology/source-code)
